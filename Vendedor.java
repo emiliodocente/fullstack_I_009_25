@@ -6,4 +6,10 @@ public class Vendedor {
         this.codigoVendedor = codigoVendedor;
         this.nombreVendedor = nombreVendedor;
     }
+
+    @Override
+    public String toString() {
+        // TODO Auto-generated method stub
+        return this.nombreVendedor;
+    }
 }
